@@ -190,18 +190,15 @@ ${config.BOTNAME || "> [⚡ 𝗫Ｐ𝗥Ｏ𝗩𝗘𝗥𝗖𝗘 〽ᴅ ⚡]"}
   //=====================youtube===========================================
   SONG: function (data,pushname,oce) {
     return `
-> [⚡ 𝗫Ｐ𝗥Ｏ𝗩𝗘𝗥𝗖𝗘 〽ᴅ ⚡]
-> 𝙷𝚎𝚕𝚕𝚘 𝚃𝚑𝚎𝚛𝚎 *${pushname}*
-> ==========================
-> ${oce}[  S  O  N  G    D  L  ]${oce}
-> >>>>>>>>>>>>>>>>>>>>>>>>>>
-> 🎶 *Title:* ${data.title}
-> ⏱️ *Duration:* ${data.timestamp}
-> 👁️ *Views:* ${data.views}
-> 📅 *Uploaded On:* ${data.ago}
-> 🔗 *Link:* ${data.url}
-> >>>>>>>>>>>>>>>>>>>>>>>>>>
-> =========================`.trim();
+> ❝${data.title}❞
+
+>▫️📅 *Rᴇʟᴇᴀꜱᴇ Dᴀᴛᴇ :* ${data.ago}
+>▫️⏱️ *Dᴜʀᴀᴛɪᴏɴ :* ${data.timestamp}
+>▫️🎭 *Vɪᴇᴡꜱ :* ${data.views}
+
+00:00 ───●────────── ${data.timestamp}
+
+> Present By සින්දු ලෝකෙ 🪇`.trim();
   },
   YTMP3: function (data) {
     return `
